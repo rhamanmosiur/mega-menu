@@ -1,0 +1,252 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:300,400,500,700&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    line-height: 32px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+
+/* ..................................
+ 02. header css 
+.................................. */
+
+.main-menu-area {}
+
+.main-menu {
+    position: relative;
+    min-height: 44px;
+}
+
+.main-menu ul {}
+
+.main-menu ul li {
+    float: left;
+    margin-right: 2px;
+    position: relative;
+}
+
+.main-menu ul li a {
+    background: #333;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.main-menu ul li:hover a {
+    background: red;
+}
+
+
+/* ..................................
+ 03. start sub menu  CSS 
+.................................. */
+
+.main-menu ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    transition: .3s;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.main-menu ul li:hover ul {
+    transform: scaleY(1);
+}
+
+.main-menu ul li ul li {
+    float: none;
+}
+
+.main-menu ul li ul li a {
+    border-bottom: 1px solid #999;
+    padding: 7px 20p
+}
+
+.main-menu ul li:hover ul li a {
+    background: #333333;
+}
+
+.main-menu ul li:hover ul li a:hover {
+    background: red;
+}
+
+
+/* ..................................
+ 01. start mega menu  CSS CSS 
+.................................. */
+
+.main-menu ul li .mega-menu {
+    width: 650px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    padding-bottom: 8px;
+    transition: .3s;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.main-menu ul li .mega-menu span {
+    width: 33.33%;
+    float: left;
+    padding-right: 20px;
+}
+
+.main-menu ul li .mega-menu span .mega-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid #999;
+}
+
+.main-menu ul li .mega-menu span a {
+    text-transform: capitalize;
+    padding: 5px 20px;
+    background: none;
+}
+
+.main-menu ul li:hover .mega-menu {
+    transform: scaleY(1);
+}
+
+.main-menu ul li .mega-menu span a:hover {
+    color: red;
+}
+
+.main-menu ul li.static {
+    position: static;
+}
+
+.main-menu ul li .mega-full {
+    width: 100%;
+}
+
+.main-menu ul li .mega-full span {
+    width: 20%;
+}
+
+.mega-menu span a .img {
+    width: 75px;
+    height: 75px;
+}
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
